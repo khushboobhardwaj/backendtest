@@ -5,7 +5,7 @@ import loginRoute from "./routes/loginRoutes.js";
 import connect from "./index.js";
 import cors from "cors";
 import rateLimit from "express-rate-limit";
-import authMiddleware from "./middleware/authorisation.js"
+import {authMiddleware} from "./middleware/authorisation.js"
 import todoRoute from "./routes/todoRoutes.js"
 
 dotenv.config();
